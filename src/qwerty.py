@@ -5,6 +5,7 @@
 # Your objective is to take the scrambled messages Jenny wrote on the
 # QWERTY keyboards, and convert them to the correct format, assuming
 # she had used a DVORAK keyboard
+# Assume that Jenny's intended message only contains letters
 
 def qwerty(message):
     pass
