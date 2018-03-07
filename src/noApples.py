@@ -4,9 +4,7 @@
 #return: ['Apple', 'banana', 'Microsoft']
 def no_apples(input_list):
   new = []
-  print("here")
-	for item in input_list:
-    lower_item = item.lower()
-    if "apple" not in lower_item:
+  for item in input_list:
+    if "apple" not in item:
       new += [item]
   return new
