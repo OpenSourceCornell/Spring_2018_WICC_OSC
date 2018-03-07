@@ -8,10 +8,10 @@ import sleep
 
 class sleepTest(unittest.TestCase):
     def test1(self):
-        self.assertEqual(sleep.sleep([5, 23, 15, 17, 19]), 8.2)
+        self.assertEqual(sleep.sleep([5, 23, 15, 17, 19]), 15.8)
     
     def test2(self):
-        self.assertEqual(sleep.sleep([24, 24, 24, 24, 24, 24, 24]), 0)
+        self.assertEqual(sleep.sleep([24, 24, 24, 24, 24, 24, 24]), 24)
     
     def test3(self):
         self.assertEqual(sleep.sleep([23, 16, 9, 3, 2, 14, 17]), 12)

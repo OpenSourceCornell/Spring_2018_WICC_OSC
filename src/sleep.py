@@ -4,4 +4,7 @@
 # that student has slept for
 
 def sleep(awake):
-    pass
+    tot = 0
+    for i in awake:
+    	tot += i
+    return(tot/len(awake))
