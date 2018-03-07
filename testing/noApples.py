@@ -3,4 +3,8 @@
 #ex: ['apple', 'Apple', 'I<3apple', 'banana', 'Microsoft']
 #return: ['Apple', 'banana', 'Microsoft']
 def no_apples(input_list):
-	pass
+  new = []
+  for item in input_list:
+    if "apple" not in item:
+      new.append(item)
+  return new
