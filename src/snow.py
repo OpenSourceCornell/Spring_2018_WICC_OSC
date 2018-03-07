@@ -6,4 +6,10 @@
 # Example output: Philips
 
 def snow(buildings):
-    pass
+    max_num = 0
+    max_building = ""
+    for k,v in buildings.items():
+      if v > max_num:
+        max_building = k
+        max_num = v
+    return max_building
