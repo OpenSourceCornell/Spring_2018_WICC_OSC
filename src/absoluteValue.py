@@ -1,3 +1,3 @@
 # return the absolute value
 def absolute_value(x):
-	pass
+	return abs(x)
