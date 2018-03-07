@@ -1,4 +1,5 @@
 # count the number of a's
 def count_a(str):
-    pass
+    numNonAs = str.replace("a", "")
+    return len(str) - len(numNonAs)
     
