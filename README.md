@@ -18,3 +18,13 @@ Thank you for any contributions!
 
 ## Testing
 To test a specific function, do the following: first, ensure you are in the `testing` subdirectory by running `cd testing` from the root of the project. Then, run `python [function-name]_test.py` to test the code.
+
+## Reviewing
+In addition to implementing functions, we also need some help reviewing contributions to ensure they are implemented correctly. You can test the code using the following instructions:
+1. First, find a pull request with the "Needs Testing" label.
+2. On the issue, there should be a comment that says which branch the pull request is on.
+3. From you local machine, type `git fetch` to get any latest changes, then checkout the pull request using `git checkout origin/[branch-name]`.
+  - This should make git complain about a "Detached HEAD" state, but this is fine for testing purposes.
+4. Test the code as shown in the [Testing section](#Testing).
+5. Comment on the pull request on Github, say whether the code works for you or if it has issues.
+6. Feel free to also review the code itself, and make any suggestions!
