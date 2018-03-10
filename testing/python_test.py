@@ -14,7 +14,7 @@ class pythonTest(unittest.TestCase):
         self.assertEqual(python.python("java"), False)
     
     def test3(self):
-        self.assertEqual(python.python("pytho?", False)
+        self.assertEqual(python.python("pytho?"), False)
 
 if __name__ == '__main__':
     unittest.main()
