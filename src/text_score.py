@@ -5,9 +5,9 @@
 # Every time the first string occurs in the text, you will
 # increment the score count, and every time the second string
 # occurs, you will decrement the score count. Return the final score.
-# Example: 
+# Example:
 # input: ("I love to eat hot dogs for breakfast, hot dogs for lunch, and even for dinner!", "hot", "for")
 # output: -1
 
 def text_score(message, positive_word, negative_word):
-    pass
+    return message.count(positive_word) - message.count(negative_word)
