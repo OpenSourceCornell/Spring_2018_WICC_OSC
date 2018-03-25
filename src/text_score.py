@@ -10,4 +10,9 @@
 # output: -1
 
 def text_score(message, positive_word, negative_word):
-    pass
+    message_list=message.split()
+    Score_Count=0
+    for i in message_list:
+        if i==positive_word: Score_Count+=1
+        elif i==negative_word: Score_Count-=1
+    return Score_Count
