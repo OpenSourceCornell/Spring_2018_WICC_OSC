@@ -2,8 +2,8 @@ import unittest
 import os
 import sys
 cwd = os.getcwd()
-sys.path.append(cwd + '/../src')
-
+sys.path.append(cwd + '\..\src')
+print(cwd + '\..\src')
 
 import whereToEat
 
