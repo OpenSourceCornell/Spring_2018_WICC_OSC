@@ -2,9 +2,8 @@ import unittest
 import os
 import sys
 cwd = os.getcwd()
-sys.path.append(cwd + '/../src')
-
-
+sys.path.append(cwd + '/../src/')
+#/home/sohesh/Desktop/pyhton_github/Spring_2018_WICC_OSC/src/bestBathroom.py
 import bestBathroom
 
 class bestBathroomTest(unittest.TestCase):
