@@ -2,9 +2,7 @@ import unittest
 import os
 import sys
 cwd = os.getcwd()
-sys.path.append(cwd + '/../src')
-
-
+sys.path.append(cwd + '/../src/')
 import bestBathroom
 
 class bestBathroomTest(unittest.TestCase):
