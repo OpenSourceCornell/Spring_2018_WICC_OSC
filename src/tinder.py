@@ -9,4 +9,22 @@
 # if two or more hobbies match
 
 def tinder(qt1, qt2):
-    pass
+    v = set()
+    for el in qt1:
+        v.add(el)
+    
+    counter = 0
+    for el in qt2:
+        if el in v:
+            counter += 1
+
+    if counter == 0:
+        return 'dislike'
+
+    if counter == 1:
+        return 'like'
+
+    if counter > 1:
+        return 'super like'
+            
+
